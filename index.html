@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/scripts.js"defer></script>
+  <title>Seu nome com JavaScript</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Bem-vindo!</h1>
+    <p>Digite seu nome completo para saber mais sobre ele:</p>
+    <div class="input-container">
+      <input type="text" id="nomeInput" placeholder="Seu nome completo">
+      <button onclick="exibirInformacoes()">Enviar</button>
+    </div>
+    <div id="output"></div>
+    <div class="retry-container">
+      <button class="retry-btn" onclick="reiniciar()">Tentar Novamente</button>
+    </div>
+  </div>
+
+</body>
+</html>
