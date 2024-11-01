@@ -11,11 +11,14 @@
 <body>
   <div class="container">
     <h1>Bem-vindo!</h1>
-    <p>Digite seu nome completo para saber mais sobre ele:</p>
+    <div id="inputInstruction">
+      <p>Digite seu nome completo para saber mais sobre ele:</p>
+    </div>
     <div class="input-container">
       <input type="text" id="nomeInput" placeholder="Seu nome completo">
       <button onclick="exibirInformacoes()">Enviar</button>
     </div>
+    <div id="welcomeMessage"></div> <!-- Elemento para a mensagem de boas-vindas -->
     <div id="output"></div>
     <div class="retry-container">
       <button class="retry-btn" onclick="reiniciar()">Tentar Novamente</button>
